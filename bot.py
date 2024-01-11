@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/akbotupdates")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/PK_LinkZz")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -124,7 +124,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Ak_Bots_Discussion)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/pkmovie_request)",
                                      disable_web_page_preview=True)
             return
 
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://greylinks.in/iNTOJzfb")
+                                             url="https://t.me/itsme_kp")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://greylinks.in/iNTOJzfb")
+                                             url="https://t.me/itsme_kp")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/GreyMatter_Bots")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/PK_LinkZz")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/GreyMatter_Support"),
-                        InlineKeyboardButton("YouTube Channel", url="https://bit.ly/43x8Jhe")
+                        InlineKeyboardButton("Movie Group", url="https://t.me/pkmovie_request"),
+                        InlineKeyboardButton("BOT OWNER", url="https://t.me/Askcaptainbot")
                     ]
                 ]
             )
@@ -379,7 +379,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/GreyMatter_Support).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/pkmovie_request).",
                         disable_web_page_preview=True
                     )
                     return
@@ -411,8 +411,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/akupdates_bot"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/Ak_Bots_Discussion")
+                        InlineKeyboardButton("Updates Channel", url="PK_LinkZz"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/pkmovie_request")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
